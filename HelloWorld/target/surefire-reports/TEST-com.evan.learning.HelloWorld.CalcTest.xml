@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.evan.learning.HelloWorld.CalcTest" time="0.009" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.evan.learning.HelloWorld.CalcTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\emin\eclipse-workspace2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8894365855282469369.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\emin\eclipse-workspace2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8963171692707244628.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Java/jdk/bin/../jre/bin/server;C:/Java/jdk/bin/../jre/bin;C:/Java/jdk/bin/../jre/lib/amd64;C:\Java\jdk\bin;C:\apache-ant-1.9.9\bin;C:\apache-maven-3.5.2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Shoreline Communications\ShoreWare Client\;C:\Program Files (x86)\Shoreline Communications\ShoreWare Client\win64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Python27;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\PICT\;C:\Vert.x3.4.2full\vertx\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\ProgramData\Anaconda2\Scripts\;C:\ProgramData\Anaconda2\;C:\Tcl\bin;C:\Users\emin\AppData\Local\Microsoft\WindowsApps;;C:\Java\jdk\bin;C:\apache-ant-1.9.9\bin;C:\apache-maven-3.5.2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Shoreline Communications\ShoreWare Client\;C:\Program Files (x86)\Shoreline Communications\ShoreWare Client\win64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Python27;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\PICT\;C:\Vert.x3.4.2full\vertx\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\ProgramData\Anaconda2\Scripts\;C:\ProgramData\Anaconda2\;;C:\Users\emin\AppData\Roaming\npm;C:\Users\emin\eclipse\java-oxygen\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.evan.learning.HelloWorld.CalcTest" name="subTest" time="0.005"/>
-  <testcase classname="com.evan.learning.HelloWorld.CalcTest" name="addTest" time="0.004"/>
-  <testcase classname="com.evan.learning.HelloWorld.CalcTest" name="mulTest" time="0"/>
+  <testcase classname="com.evan.learning.HelloWorld.CalcTest" name="subTest" time="0.002"/>
+  <testcase classname="com.evan.learning.HelloWorld.CalcTest" name="addTest" time="0.001"/>
+  <testcase classname="com.evan.learning.HelloWorld.CalcTest" name="mulTest" time="0.001"/>
 </testsuite>
