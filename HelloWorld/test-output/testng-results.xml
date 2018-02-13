@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="31" started-at="2018-02-13T09:08:48Z" finished-at="2018-02-13T09:08:48Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="31" started-at="2018-02-13T09:08:48Z" finished-at="2018-02-13T09:08:48Z">
+      <class name="com.evan.learning.HelloWorld.CalcNgTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.evan.learning.HelloWorld.CalcNgTest@69d9c55]" name="SetUp" is-config="true" duration-ms="8" started-at="2018-02-13T17:08:48Z" finished-at="2018-02-13T17:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addngTest()[pri:0, instance:com.evan.learning.HelloWorld.CalcNgTest@69d9c55]" name="addngTest" duration-ms="0" started-at="2018-02-13T17:08:48Z" finished-at="2018-02-13T17:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addngTest -->
+        <test-method status="PASS" signature="mulngtest()[pri:0, instance:com.evan.learning.HelloWorld.CalcNgTest@69d9c55]" name="mulngtest" duration-ms="0" started-at="2018-02-13T17:08:48Z" finished-at="2018-02-13T17:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulngtest -->
+        <test-method status="PASS" signature="subng()[pri:0, instance:com.evan.learning.HelloWorld.CalcNgTest@69d9c55]" name="subng" duration-ms="0" started-at="2018-02-13T17:08:48Z" finished-at="2018-02-13T17:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subng -->
+      </class> <!-- com.evan.learning.HelloWorld.CalcNgTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

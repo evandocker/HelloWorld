@@ -1,3 +1,4 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+HelloWorld,com.evan.learning.HelloWorld,CalcNg,0,15,0,0,0,4,0,4,0,4
 HelloWorld,com.evan.learning.HelloWorld,App,4,7,0,0,2,3,1,2,1,2
-HelloWorld,com.evan.learning.HelloWorld,Calc,0,15,0,0,0,4,0,4,0,4
+HelloWorld,com.evan.learning.HelloWorld,Calc,15,0,0,0,4,0,4,0,4,0
