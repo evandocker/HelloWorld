@@ -20,5 +20,9 @@ public class Calc {
 	public int add3(int a, int b) {
 		return a * 20 + b;
 	}
+	
+	public int add4(int a, int b) {
+		return a * 30 + b;
+	}
 
 }
