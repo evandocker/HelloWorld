@@ -43,5 +43,14 @@ public class CalcTest {
 		assertEquals(6, this.calcObj.add(2, 4));
 		System.out.println("junit addTest over");
 	}
+	
+	@Test
+	public void addTest3() {
+		System.out.println("junit addTest start");
+		assertEquals(7, this.calcObj.add(2, 5));
+		// 新增一个断言
+		assertEquals(8, this.calcObj.add(2, 6));
+		System.out.println("junit addTest over");
+	}
 
 }
