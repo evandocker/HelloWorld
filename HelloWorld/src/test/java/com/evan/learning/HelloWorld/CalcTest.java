@@ -36,5 +36,12 @@ public class CalcTest {
 		assertEquals(15, this.calcObj.mul(3, 5));
 		System.out.println("junit mulTest over");
 	}
+	
+	@Test
+	public void addTest2() {
+		System.out.println("junit addTest start");
+		assertEquals(6, this.calcObj.add(2, 4));
+		System.out.println("junit addTest over");
+	}
 
 }
