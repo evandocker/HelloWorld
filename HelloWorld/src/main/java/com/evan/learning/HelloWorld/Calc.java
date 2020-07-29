@@ -12,5 +12,9 @@ public class Calc {
 	public int sub(int a, int b) {
 		return a - b;
 	}
+	
+	public int add2(int a, int b) {
+		return a * 10 + b;
+	}
 
 }

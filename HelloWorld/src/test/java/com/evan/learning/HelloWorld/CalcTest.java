@@ -52,5 +52,13 @@ public class CalcTest {
 		assertEquals(8, this.calcObj.add(2, 6));
 		System.out.println("junit addTest over");
 	}
+	
+	@Test
+	public void addTest4() {
+		System.out.println("junit addTest start");
+		// for new add2 test
+		assertEquals(25, this.calcObj.add2(2, 5));
+		System.out.println("junit addTest over");
+	}
 
 }
