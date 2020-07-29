@@ -32,5 +32,9 @@ public class Calc {
 	public int add6(int a, int b) {
 		return a * 30 + b;
 	}
+	
+	public int add7(int a, int b) {
+		return a * 30 + b;
+	}
 
 }
