@@ -1,0 +1,149 @@
+<html>
+  
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jmeter自动化性能回归测试报告</title>
+    <style type="text/css">body { font:normal 68% verdana,arial,helvetica; color:#000000; }table tr td, table tr th { font-size: 78%; }table.details tr th{ color: #ffffff; font-weight: bold; text-align:center; background:#2674a6; white-space: nowrap; }table.details tr td{ background:#eeeee0; white-space: nowrap; }h1 { margin: 0px 0px 5px; font: 265% verdana,arial,helvetica } h2 { margin-top: 1em; margin-bottom: 0.5em; font: bold 185% verdana,arial,helvetica } h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica } .Failure { font-weight:bold; color:red; }.Pass { font-weight:bold; color:green; }</style>
+    <script language="JavaScript">function show_detail(detail) {
+        if (detail.style.display == "none") {
+          detail.style.display = "";
+        } else {
+          detail.style.display = "none";
+        }
+      }</script>
+  </head>
+  
+  <body>
+    <h1>jmeter自动化性能回归测试报告</h1>
+    <hr size=1>
+    <table>
+      <tr>
+        <td>
+          <h2>测试时间</h2>
+          <table width="60%" cellspacing="2" cellpadding="5" border="0" class="details" align="left">
+            <tr>
+              <th>本次测试开始时间</th>
+              <th>本次测试结束时间</th></tr>
+            <tr align="center">
+              <td>2020-12-14 19:18:35</td>
+              <td>2020-12-14 20:18:35</td></tr>
+      </tr>
+      </table>
+      </td>
+      </tr>
+	  
+	  <tr>
+        <td>
+          <h2>结果汇总</h2>
+          <table width="60%" cellspacing="2" cellpadding="5" border="0" class="details" align="left">
+            <tr>
+                <th>总的性能测试接口数</th>
+                <th>成功接口数</th>
+                <th>失败接口数</th>
+                <th>测试通过率</th></tr>
+              <tr align="center">
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>50.00%</td></tr>
+      </tr>
+      </table>
+      </td>
+      </tr>
+	  
+      <table>
+        <tr>
+          <td>
+            <h2>服务资源指标结果</h2>
+            <table width="60%" cellspacing="2" cellpadding="5" border="0" class="details" align="left">
+              <tr valign="top">
+                <th>测试场景</th>
+                <th>CPU(%)</th>
+				<th>基线CPU(%)</th>
+                <th>内存(%)</th>
+				<th>基线内存(%)</th>
+                <th>IO</th>
+				<th>基线IO</th>
+                <th>测试结果</th></tr>
+              <tr valign="top" class="">
+                <tr>
+                  <td>天气服务-实况天气接口</td>
+                  <td>130.5</td>
+				  <td>120.5</td>
+                  <td>85</td>
+				  <td>90</td>
+                  <td>53</td>
+				  <td>60</td>
+                  <td class="Failure">fail</td></tr>
+        </tr>
+        </table>
+        </td>
+        </tr>
+		
+		 <tr>
+            <td>
+              <font color=red>
+                <b>测试结果pass标准：CPU <= 基线指标CPU 且 内存 <= 基线指标内存 </b>
+              </font>
+              <td></tr>
+		
+		 <tr>
+          <td>
+            <h2>业务指标结果</h2>
+            <table width="95%" cellspacing="2" cellpadding="5" border="0" class="details" align="left">
+              <tr valign="top">
+                <th>测试接口</th>
+                <th>TPS</th>
+				<th>业务基线TPS</th>
+                <th>平均响应时间(ms)</th>
+				<th>业务基线平均响应时间</th>
+                <th>总事务数</th>
+                <th>失败事务数</th>
+                <th>事务成功率</th>
+				<th>业务基线成功率</th>
+                <th>测试结果</th></tr>
+              <tr valign="top" class="">
+                <tr>
+                  <td>天气服务-实况天气接口</td>
+                  <td>180</td>
+				  <td>200</td>
+                  <td>400</td>
+				  <td>400</td>
+                  <td>67265</td>
+                  <td>0</td>
+                  <td>100.00%</td>
+				  <td>99.50%</td>
+                  <td class="Failure">fail</td></tr>
+                <tr>
+                  <td>天气服务-搜索城市接口</td>
+                  <td>205</td>
+				  <td>200</td>
+                  <td>400</td>
+				  <td>400</td>
+                  <td>67265</td>
+                  <td>0</td>
+                  <td>100.00%</td>
+				  <td>99.50%</td>
+                  <td class="Pass">pass</td></tr>
+              
+              </tr>
+            </table>
+          </td>
+        </tr>
+       
+        <table>
+          <tr>
+            <td>
+              <font color=red>
+                <b>测试结果pass标准：tps >= 基线业务指标tps 且 事务成功率 > 基线业务指标成功率</b>
+              </font>
+              <td></tr>
+        </table>
+		
+		
+		
+		
+		
+  </body>
+
+</html>
