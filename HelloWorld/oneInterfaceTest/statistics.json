@@ -1,0 +1,32 @@
+{
+  "单接口测试http" : {
+    "transaction" : "单接口测试http",
+    "sampleCount" : 62,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 28.096774193548388,
+    "minResTime" : 16.0,
+    "maxResTime" : 273.0,
+    "pct1ResTime" : 29.80000000000001,
+    "pct2ResTime" : 77.09999999999997,
+    "pct3ResTime" : 273.0,
+    "throughput" : 1.0160103567507333,
+    "receivedKBytesPerSec" : 0.4668929901430608,
+    "sentKBytesPerSec" : 0.6469768570866722
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 62,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 28.096774193548388,
+    "minResTime" : 16.0,
+    "maxResTime" : 273.0,
+    "pct1ResTime" : 29.80000000000001,
+    "pct2ResTime" : 77.09999999999997,
+    "pct3ResTime" : 273.0,
+    "throughput" : 1.0160103567507333,
+    "receivedKBytesPerSec" : 0.4668929901430608,
+    "sentKBytesPerSec" : 0.6469768570866722
+  }
+}
